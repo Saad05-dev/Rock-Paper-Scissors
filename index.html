@@ -8,33 +8,36 @@
     <script src="index.js"></script>
 </head>
 <body>
-    <h2>Rock Paper Scissors</h2>
+    <div>
+        <h2>Rock Paper Scissors</h2>
+        <div class="Game">
+            <button class="rock" onclick="
+            Game('rock');
+            ">
+            🪨 Rock
+            </button>
+            <button class="scissors" onclick="
+            Game('scissors');
+            ">
+            ✂️ Scissors
+            </button>
+            <button class="paper" onclick="
+            Game('paper');
+            ">
+            📄 Paper
+            </button>
 
-    <button class="rock" onclick="
-    Game('rock');
-    ">
-    Rock
-    </button>
-    <button class="scissors" onclick="
-    Game('scissors');
-    ">
-    Scissors
-    </button>
-    <button class="paper" onclick="
-    Game('paper');
-    ">
-    Paper
-    </button>
+            <p class="result"></p>
+            <p class="moves"></p>
+            <p class="stats"></p>
 
-    <p class="result"></p>
-    <p class="moves"></p>
-    <p class="stats"></p>
-
-    <button class="reset" onclick="
-    Game('reset');
-    ">
-    Reset
-    </button>
+            <button class="reset" onclick="
+            Game('reset');
+            ">
+            Reset
+            </button>
+        </div>
+    </div>
 
 </body>
 </html>

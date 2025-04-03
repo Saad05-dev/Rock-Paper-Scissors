@@ -1,4 +1,4 @@
-    let result = '';
+  let result = '';
 
     const Score = JSON.parse(localStorage.getItem('Score')) || 
     {

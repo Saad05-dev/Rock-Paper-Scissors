@@ -3,9 +3,19 @@
     padding: 0;
 }
 body{
-    background-color: #191919;
-    color: white;
+    background-color: #14141d;
+    color: rgb(134, 202, 207);
     font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Game
+{
+    display: block;
 }
 h2{
     margin-top: 50px;
@@ -16,15 +26,23 @@ h2{
 button{
     margin-left: 10px;
     margin-top: 30px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 50%;
+    border: none;
+    color: rgb(88, 121, 182);
+    background-color: rgb(9, 27, 87);
     cursor: pointer;
+    text-align: center;
 }
 .reset{
     height: 30px;
-    font-size: 20px;
-    font-weight: 800;
     width: 70px;    
+    background-color: rgb(9, 27, 87);
+    border-radius: 5px;
+    border: none;
 }
 p{
     margin-top: 30px;
